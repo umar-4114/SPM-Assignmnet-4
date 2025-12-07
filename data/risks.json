@@ -1,0 +1,97 @@
+{
+  "risks": [
+    {
+      "risk_id": "R001",
+      "risk_name": "Scope Creep",
+      "description": "Additional features and requirements added during project execution",
+      "probability": 0.30,
+      "impact_type": "cost_increase",
+      "impact_value": 0.15,
+      "impact_description": "15% increase in overall project cost",
+      "mitigation_strategy": "Strict change control process, stakeholder education on impact of scope changes"
+    },
+    {
+      "risk_id": "R002",
+      "risk_name": "Key Team Member Departure",
+      "description": "Loss of critical team member due to resignation or illness",
+      "probability": 0.15,
+      "impact_type": "velocity_reduction",
+      "impact_value": 0.25,
+      "impact_description": "25% reduction in team velocity for 3 sprints",
+      "duration_sprints": 3,
+      "mitigation_strategy": "Knowledge sharing, documentation, pair programming, succession planning"
+    },
+    {
+      "risk_id": "R003",
+      "risk_name": "Integration Issues",
+      "description": "Unexpected complexity in integrating third-party services or internal systems",
+      "probability": 0.25,
+      "impact_type": "velocity_reduction",
+      "impact_value": 0.20,
+      "impact_description": "20% velocity reduction for 2 sprints",
+      "duration_sprints": 2,
+      "mitigation_strategy": "Early integration testing, technical spikes for complex integrations"
+    },
+    {
+      "risk_id": "R004",
+      "risk_name": "Third-party API Delays",
+      "description": "External API or service provider experiences delays or changes",
+      "probability": 0.20,
+      "impact_type": "delay",
+      "impact_value": 1,
+      "impact_description": "Additional 1 sprint delay",
+      "mitigation_strategy": "Mock services for testing, alternative provider identification"
+    },
+    {
+      "risk_id": "R005",
+      "risk_name": "Security Vulnerability Discovery",
+      "description": "Critical security vulnerability found requiring immediate remediation",
+      "probability": 0.10,
+      "impact_type": "cost_increase",
+      "impact_value": 20000,
+      "impact_description": "Additional $20,000 for security audit and fixes",
+      "mitigation_strategy": "Regular security audits, security training, secure coding practices"
+    },
+    {
+      "risk_id": "R006",
+      "risk_name": "Infrastructure Failures",
+      "description": "Cloud service outages or infrastructure reliability issues",
+      "probability": 0.12,
+      "impact_type": "velocity_reduction",
+      "impact_value": 0.15,
+      "impact_description": "15% velocity reduction for 1 sprint",
+      "duration_sprints": 1,
+      "mitigation_strategy": "Multi-region deployment, backup systems, disaster recovery planning"
+    },
+    {
+      "risk_id": "R007",
+      "risk_name": "Technical Debt Accumulation",
+      "description": "Rapid accumulation of technical debt reducing team effectiveness",
+      "probability": 0.28,
+      "impact_type": "velocity_reduction",
+      "impact_value": 0.10,
+      "impact_description": "10% ongoing velocity reduction",
+      "duration_sprints": 999,
+      "mitigation_strategy": "Dedicated refactoring time, code review standards, automated testing"
+    },
+    {
+      "risk_id": "R008",
+      "risk_name": "Requirement Ambiguity",
+      "description": "Unclear or changing requirements leading to rework",
+      "probability": 0.22,
+      "impact_type": "velocity_reduction",
+      "impact_value": 0.12,
+      "impact_description": "12% velocity reduction for 2 sprints",
+      "duration_sprints": 2,
+      "mitigation_strategy": "Story refinement sessions, acceptance criteria definition, stakeholder involvement"
+    }
+  ],
+  "risk_response_strategies": {
+    "avoidance": "Eliminate risk by changing project approach",
+    "mitigation": "Reduce probability or impact through proactive measures",
+    "transfer": "Shift risk to third party (insurance, outsourcing)",
+    "acceptance": "Acknowledge risk and develop contingency plan"
+  },
+  "overall_risk_level": "Medium-High",
+  "risk_review_frequency": "Every sprint"
+}

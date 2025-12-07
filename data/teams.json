@@ -1,0 +1,48 @@
+{
+  "teams": [
+    {
+      "team_id": "ALPHA",
+      "team_name": "Team Alpha",
+      "average_velocity": 45,
+      "velocity_std": 6,
+      "cost_per_sprint": 50000,
+      "description": "Senior cross-functional team with strong technical expertise",
+      "specialization": "Backend and API development"
+    },
+    {
+      "team_id": "BETA",
+      "team_name": "Team Beta",
+      "average_velocity": 38,
+      "velocity_std": 5,
+      "cost_per_sprint": 42000,
+      "description": "Mid-level team with balanced frontend and backend skills",
+      "specialization": "Full-stack development"
+    },
+    {
+      "team_id": "GAMMA",
+      "team_name": "Team Gamma",
+      "average_velocity": 32,
+      "velocity_std": 4,
+      "cost_per_sprint": 35000,
+      "description": "Growing team with focus on UI/UX",
+      "specialization": "Frontend and mobile development"
+    }
+  ],
+  "shared_resources": {
+    "database_architect": {
+      "availability": 0.3,
+      "description": "Shared database architect needed for complex queries and optimization"
+    },
+    "security_expert": {
+      "availability": 0.2,
+      "description": "Security consultant for authentication and encryption features"
+    },
+    "devops_engineer": {
+      "availability": 0.25,
+      "description": "DevOps engineer for CI/CD and infrastructure setup"
+    }
+  },
+  "sprint_duration_weeks": 2,
+  "working_days_per_sprint": 10,
+  "total_combined_velocity": 115
+}

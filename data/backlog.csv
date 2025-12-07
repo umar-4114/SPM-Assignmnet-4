@@ -1,0 +1,211 @@
+Story ID,Story Name,Story Points,Complexity,Technical Debt Factor,Dependencies,Priority
+US001,User Login and Authentication,8,Medium,0.10,,High
+US002,Password Reset Functionality,5,Medium,0.08,,High
+US003,User Profile Creation,5,Medium,0.12,US001,High
+US004,Profile Picture Upload,3,Small,0.05,US003,Medium
+US005,Edit Profile Information,5,Medium,0.10,US003,High
+US006,Dashboard Overview Page,13,Large,0.15,US001,High
+US007,Real-time Notifications,8,Medium,0.18,US001,High
+US008,Email Notification Settings,3,Small,0.05,US007,Medium
+US009,Push Notification Support,8,Medium,0.20,US007,Medium
+US010,Product Catalog Display,13,Large,0.15,,High
+US011,Product Search Functionality,8,Medium,0.12,US010,High
+US012,Advanced Filter Options,5,Medium,0.10,US011,Medium
+US013,Sort Products by Price,3,Small,0.05,US010,Medium
+US014,Sort Products by Rating,3,Small,0.05,US010,Medium
+US015,Product Detail Page,8,Medium,0.12,US010,High
+US016,Product Image Gallery,5,Medium,0.08,US015,Medium
+US017,Product Reviews Display,5,Medium,0.10,US015,Medium
+US018,Write Product Review,8,Medium,0.15,US001|US015,Medium
+US019,Rating System Implementation,5,Medium,0.12,US015,Medium
+US020,Shopping Cart Functionality,13,Large,0.18,US001,High
+US021,Add Items to Cart,5,Medium,0.10,US020,High
+US022,Remove Items from Cart,3,Small,0.05,US020,High
+US023,Update Cart Quantities,3,Small,0.08,US020,High
+US024,Cart Total Calculation,5,Medium,0.10,US020,High
+US025,Apply Discount Codes,8,Medium,0.15,US020,Medium
+US026,Checkout Process,13,Large,0.20,US020,High
+US027,Shipping Address Entry,5,Medium,0.10,US026,High
+US028,Multiple Shipping Addresses,8,Medium,0.15,US027,Medium
+US029,Billing Information Entry,5,Medium,0.10,US026,High
+US030,Payment Gateway Integration,13,Large,0.25,US026,High
+US031,Credit Card Payment,8,Medium,0.15,US030,High
+US032,PayPal Integration,8,Medium,0.18,US030,High
+US033,Apple Pay Support,8,Medium,0.20,US030,Medium
+US034,Order Confirmation Page,5,Medium,0.08,US026,High
+US035,Order Confirmation Email,5,Medium,0.10,US034,High
+US036,Order History View,8,Medium,0.12,US001,High
+US037,Order Details Display,5,Medium,0.10,US036,Medium
+US038,Track Order Status,8,Medium,0.15,US036,High
+US039,Cancel Order Functionality,5,Medium,0.12,US036,Medium
+US040,Return Request Submission,8,Medium,0.18,US036,Medium
+US041,Wishlist Feature,8,Medium,0.12,US001,Medium
+US042,Add to Wishlist,3,Small,0.05,US041,Medium
+US043,Remove from Wishlist,3,Small,0.05,US041,Medium
+US044,Share Wishlist,5,Medium,0.10,US041,Low
+US045,Move Wishlist Items to Cart,5,Medium,0.08,US041|US020,Medium
+US046,Admin Dashboard,13,Large,0.18,,High
+US047,User Management Panel,8,Medium,0.15,US046,High
+US048,View All Users,5,Medium,0.10,US047,High
+US049,Edit User Information,5,Medium,0.12,US047,High
+US050,Deactivate User Account,5,Medium,0.10,US047,High
+US051,Product Management Panel,13,Large,0.18,US046,High
+US052,Add New Product,8,Medium,0.15,US051,High
+US053,Edit Product Information,5,Medium,0.12,US051,High
+US054,Delete Product,3,Small,0.08,US051,High
+US055,Bulk Product Upload,13,Large,0.22,US051,Medium
+US056,Inventory Management,13,Large,0.20,US046,High
+US057,Stock Level Tracking,8,Medium,0.15,US056,High
+US058,Low Stock Alerts,5,Medium,0.12,US056,High
+US059,Reorder Point Configuration,5,Medium,0.10,US056,Medium
+US060,Purchase Order Creation,8,Medium,0.18,US056,Medium
+US061,Order Management Panel,13,Large,0.18,US046,High
+US062,View All Orders,8,Medium,0.12,US061,High
+US063,Update Order Status,5,Medium,0.10,US061,High
+US064,Process Refunds,8,Medium,0.15,US061,High
+US065,Generate Shipping Labels,8,Medium,0.18,US061,Medium
+US066,Sales Analytics Dashboard,13,Large,0.20,US046,High
+US067,Revenue Reports,8,Medium,0.15,US066,High
+US068,Sales Trend Analysis,8,Medium,0.18,US066,Medium
+US069,Customer Demographics Report,8,Medium,0.15,US066,Medium
+US070,Product Performance Report,8,Medium,0.15,US066,Medium
+US071,Customer Support Ticket System,13,Large,0.20,US001,High
+US072,Create Support Ticket,5,Medium,0.10,US071,High
+US073,View Ticket Status,5,Medium,0.08,US071,High
+US074,Reply to Support Ticket,5,Medium,0.12,US071,High
+US075,Close Support Ticket,3,Small,0.05,US071,High
+US076,Support Agent Dashboard,8,Medium,0.15,US071,High
+US077,Assign Tickets to Agents,5,Medium,0.12,US076,High
+US078,Ticket Priority System,5,Medium,0.10,US076,High
+US079,Canned Response Templates,5,Medium,0.08,US076,Medium
+US080,Customer Chat Integration,13,Large,0.22,US071,Medium
+US081,Search Engine Optimization,8,Medium,0.15,,Medium
+US082,Meta Tags Implementation,3,Small,0.05,US081,Medium
+US083,Sitemap Generation,5,Medium,0.10,US081,Medium
+US084,Analytics Integration,8,Medium,0.12,,High
+US085,Google Analytics Setup,5,Medium,0.08,US084,High
+US086,Conversion Tracking,5,Medium,0.10,US084,High
+US087,Social Media Integration,8,Medium,0.15,,Medium
+US088,Facebook Login,8,Medium,0.18,US001,Medium
+US089,Twitter Login,8,Medium,0.18,US001,Medium
+US090,Share Product on Social Media,5,Medium,0.10,US010,Low
+US091,Mobile Responsive Design,13,Large,0.20,,High
+US092,Tablet Layout Optimization,8,Medium,0.15,US091,High
+US093,Mobile Menu Navigation,5,Medium,0.12,US091,High
+US094,Touch Gesture Support,8,Medium,0.18,US091,Medium
+US095,Mobile App Development,21,Large,0.25,,Medium
+US096,iOS App Development,13,Large,0.25,US095,Medium
+US097,Android App Development,13,Large,0.25,US095,Medium
+US098,App Store Deployment,8,Medium,0.15,US096,Low
+US099,Play Store Deployment,8,Medium,0.15,US097,Low
+US100,API Development,21,Large,0.22,,High
+US101,RESTful API Design,13,Large,0.20,US100,High
+US102,API Authentication,8,Medium,0.18,US100,High
+US103,API Rate Limiting,8,Medium,0.15,US100,High
+US104,API Documentation,8,Medium,0.10,US100,High
+US105,API Versioning,5,Medium,0.12,US100,Medium
+US106,Database Optimization,13,Large,0.20,,High
+US107,Query Performance Tuning,8,Medium,0.18,US106,High
+US108,Database Indexing,5,Medium,0.12,US106,High
+US109,Caching Implementation,8,Medium,0.15,US106,High
+US110,Redis Cache Setup,8,Medium,0.18,US109,Medium
+US111,Content Delivery Network,13,Large,0.20,,Medium
+US112,CDN Integration,8,Medium,0.15,US111,Medium
+US113,Static Asset Optimization,5,Medium,0.10,US111,Medium
+US114,Image Optimization,5,Medium,0.12,US111,Medium
+US115,Video Content Delivery,8,Medium,0.18,US111,Low
+US116,Security Enhancements,13,Large,0.22,,High
+US117,SSL Certificate Setup,5,Medium,0.08,US116,High
+US118,Data Encryption,8,Medium,0.18,US116,High
+US119,SQL Injection Prevention,8,Medium,0.15,US116,High
+US120,XSS Attack Prevention,8,Medium,0.15,US116,High
+US121,CSRF Protection,8,Medium,0.15,US116,High
+US122,Two-Factor Authentication,13,Large,0.20,US001,High
+US123,SMS Verification,8,Medium,0.15,US122,High
+US124,Authenticator App Support,8,Medium,0.18,US122,Medium
+US125,Backup Authentication Codes,5,Medium,0.10,US122,Medium
+US126,Automated Testing Setup,13,Large,0.20,,High
+US127,Unit Test Framework,8,Medium,0.15,US126,High
+US128,Integration Testing,8,Medium,0.18,US126,High
+US129,End-to-End Testing,13,Large,0.22,US126,Medium
+US130,Performance Testing,8,Medium,0.18,US126,Medium
+US131,Continuous Integration,13,Large,0.20,,High
+US132,CI/CD Pipeline Setup,8,Medium,0.18,US131,High
+US133,Automated Deployment,8,Medium,0.20,US131,High
+US134,Environment Configuration,5,Medium,0.12,US131,High
+US135,Docker Containerization,13,Large,0.22,US131,Medium
+US136,Kubernetes Orchestration,13,Large,0.25,US135,Low
+US137,Monitoring and Logging,13,Large,0.20,,High
+US138,Application Logging,8,Medium,0.15,US137,High
+US139,Error Tracking Integration,5,Medium,0.12,US137,High
+US140,Performance Monitoring,8,Medium,0.18,US137,High
+US141,Uptime Monitoring,5,Medium,0.10,US137,High
+US142,Alert Configuration,5,Medium,0.12,US137,High
+US143,User Onboarding Flow,8,Medium,0.15,US001,Medium
+US144,Welcome Tour,5,Medium,0.10,US143,Medium
+US145,Interactive Tutorial,8,Medium,0.15,US143,Low
+US146,Help Documentation,8,Medium,0.10,,Medium
+US147,FAQ Section,5,Medium,0.08,US146,Medium
+US148,Video Tutorials,8,Medium,0.12,US146,Low
+US149,Search Documentation,5,Medium,0.10,US146,Medium
+US150,Internationalization,13,Large,0.22,,Medium
+US151,Language Selection,5,Medium,0.10,US150,Medium
+US152,Translation Management,8,Medium,0.18,US150,Medium
+US153,RTL Language Support,8,Medium,0.20,US150,Low
+US154,Currency Conversion,8,Medium,0.15,US150,Medium
+US155,Regional Date Formats,5,Medium,0.10,US150,Medium
+US156,Email Marketing Integration,8,Medium,0.15,,Medium
+US157,Newsletter Subscription,5,Medium,0.08,US156,Medium
+US158,Email Campaign Management,8,Medium,0.18,US156,Medium
+US159,Email Template Designer,8,Medium,0.20,US156,Low
+US160,A/B Testing for Emails,8,Medium,0.18,US156,Low
+US161,Referral Program,13,Large,0.20,US001,Medium
+US162,Referral Link Generation,5,Medium,0.10,US161,Medium
+US163,Track Referral Conversions,8,Medium,0.15,US161,Medium
+US164,Referral Rewards System,8,Medium,0.18,US161,Medium
+US165,Loyalty Program,13,Large,0.20,US001,Medium
+US166,Points Accumulation,8,Medium,0.15,US165,Medium
+US167,Redeem Points for Discounts,8,Medium,0.18,US165,Medium
+US168,Tier-based Benefits,8,Medium,0.20,US165,Low
+US169,Subscription Model,13,Large,0.22,,Medium
+US170,Subscription Plans,8,Medium,0.15,US169,Medium
+US171,Recurring Billing,8,Medium,0.20,US169,Medium
+US172,Subscription Management,8,Medium,0.18,US169,Medium
+US173,Cancel Subscription,5,Medium,0.10,US169,Medium
+US174,Upgrade/Downgrade Plans,8,Medium,0.18,US169,Medium
+US175,Gift Card System,13,Large,0.20,,Low
+US176,Purchase Gift Cards,8,Medium,0.15,US175,Low
+US177,Redeem Gift Cards,8,Medium,0.18,US175,Low
+US178,Gift Card Balance Check,5,Medium,0.10,US175,Low
+US179,Product Recommendations,13,Large,0.22,US001|US010,Medium
+US180,Collaborative Filtering,13,Large,0.25,US179,Medium
+US181,Content-based Filtering,13,Large,0.25,US179,Medium
+US182,Trending Products Widget,5,Medium,0.12,US179,Medium
+US183,Recently Viewed Products,5,Medium,0.10,US179,Medium
+US184,Live Product Updates,8,Medium,0.20,,Medium
+US185,WebSocket Integration,13,Large,0.22,US184,Medium
+US186,Real-time Stock Updates,8,Medium,0.18,US184,Medium
+US187,Price Change Notifications,5,Medium,0.12,US184,Low
+US188,Advanced Reporting,13,Large,0.20,US046,Medium
+US189,Custom Report Builder,13,Large,0.25,US188,Medium
+US190,Export Reports to PDF,5,Medium,0.10,US188,Medium
+US191,Export Reports to Excel,5,Medium,0.10,US188,Medium
+US192,Schedule Automated Reports,8,Medium,0.18,US188,Low
+US193,Compliance Features,13,Large,0.22,,High
+US194,GDPR Compliance,13,Large,0.25,US193,High
+US195,Data Privacy Controls,8,Medium,0.20,US193,High
+US196,Cookie Consent Banner,3,Small,0.08,US193,High
+US197,Terms and Conditions,3,Small,0.05,US193,High
+US198,Privacy Policy Page,3,Small,0.05,US193,High
+US199,Accessibility Features,13,Large,0.20,,Medium
+US200,Screen Reader Support,8,Medium,0.18,US199,Medium
+US201,Keyboard Navigation,8,Medium,0.15,US199,Medium
+US202,High Contrast Mode,5,Medium,0.12,US199,Medium
+US203,Font Size Adjustment,5,Medium,0.10,US199,Medium
+US204,Voice Commands,13,Large,0.25,US199,Low
+US205,Blog Platform,13,Large,0.18,,Low
+US206,Create Blog Posts,8,Medium,0.15,US205,Low
+US207,Edit Blog Posts,5,Medium,0.10,US205,Low
+US208,Delete Blog Posts,3,Small,0.08,US205,Low
+US209,Blog Categories,5,Medium,0.10,US205,Low
+US210,Blog Comments,8,Medium,0.15,US205,Low
